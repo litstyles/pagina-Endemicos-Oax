@@ -1,0 +1,87 @@
+nav{
+
+    background-repeat: rgb(0,0,0); width: 360px; display: flex; justify-content: space-between;
+    padding: 5px; border-radius: 22px; box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
+    
+    
+    
+    }
+    
+    nav a {
+    color: black; text-decoration: none; padding: 8px 16px; border-radius: 22px;
+    
+    }
+    
+    nav a:hover{
+    
+    transition: 0.25s; background: rgb(255, 255, 255);color :rgb(0, 0, 0);
+    
+    }
+    
+    .navbar{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(65, 197, 17);
+    color: rgb(0, 0, 0);
+    }
+    
+    .navbar a{
+    
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    
+    
+    }
+    #in{
+
+      
+        color: rgb(15, 36, 1);
+        text-decoration: none;
+        
+
+    }
+    nav a#in:hover{
+    
+        transition: 0.25s; background: rgb(207, 220, 20);color :rgb(0, 0, 0);
+        font-size: 20px;
+        transition: 0.5s ease;
+        
+        }
+
+
+/*-----------------------------------ESPECIES---------------------------------------*/
+.especies{
+
+    flex-direction: column; /* Alinear los elementos en columna */
+    margin-left: 20px;
+     margin-top: 40px;  
+     margin-bottom: 25px; 
+     justify-content: center;
+     text-align:center;
+
+     
+}
+.especies p sub {
+    font-size: 50px;
+    
+padding: 4px;
+border-radius: 0.5em;
+background-color: rgb(201, 201, 201);
+
+ }
+
+
+.especies img{
+    margin-top: 90px;
+    height: 230px; 
+    width: 230px;
+    margin: 50px;
+}

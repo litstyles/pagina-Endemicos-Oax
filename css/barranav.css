@@ -1,0 +1,29 @@
+nav{
+    background: rgba(255, 255, 255, 0.108);width: 360px;display: flex;justify-content: space-between;
+    padding: 5px;border-radius: 22px;box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+nav a{
+    color: rgb(255, 255, 255);text-decoration: none;padding: 8px 16px;border-radius: 22px;
+}
+nav  a:hover{transition: 0.25s; background: rgb(42, 179, 88);color:white;}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: white;
+   
+}
+
+.navbar a {
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

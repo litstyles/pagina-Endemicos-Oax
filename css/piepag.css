@@ -1,0 +1,84 @@
+
+
+.pie{
+  
+
+padding: 10px;
+ color: rgb(255, 255, 255);;
+background-color: #000000;
+}
+
+.redes{
+    justify-content: center;
+    display: flex;
+
+}
+
+
+#ig{
+    cursor: pointer;
+text-align: center;
+margin-left : 70px;
+margin-right: 65px;
+margin-top: 180px;
+
+}
+
+#fuentes {
+ 
+    justify-content: center;
+    display: flex;
+  
+
+}
+
+#fuentes a{
+    cursor: pointer;
+    text-align: center;
+    margin-left : 100px;
+margin-right: 100px;
+    margin-top: 90px;
+    font-size: 17px;
+    text-decoration-color: rgb(89, 89, 89);
+    color: rgb(100, 100, 100);
+ 
+
+
+
+}
+#fuentes :hover{
+   border-radius:  4px;
+   
+   background-color: rgb(223, 223, 14);
+   color: black;
+   text-decoration-color: black;
+   transition: 0.5s ease;
+  
+   justify-content: center;
+   display: flex; 
+   
+}
+
+.pie2{
+padding: 10px;
+background-color: #1b1b1b;
+
+}
+
+
+
+
+#interesa{
+
+    justify-content: center;
+   
+    display: flex; 
+}
+
+#interesa iframe{
+
+    margin: 40px;
+}
+
+
+

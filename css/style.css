@@ -1,0 +1,80 @@
+        /* Estilos generales */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+            font-family: arial, helvetica;
+                      
+                       background-color: white;
+                        margin:0px;
+            
+                    
+            }
+            
+            
+            h1 em{
+            
+            font-size: 80px;
+            text-align:center;
+            color: rgb(0, 0, 0) ;
+            border: 9px solid black;
+            padding: 10px;
+            border-radius: 5em;
+            
+            }
+        
+        /* Cabecera */
+        .header {
+            border-top: 1px solid rgb(255, 255, 255);
+            background: white;
+            color: #333;
+            height: 150px;
+            width: 100%;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+        }
+        
+        /* Menú */
+        .menu {
+            height: 80px;
+            width: 100%;
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+        
+        /* Contenido principal */
+        .wrapper {
+            height: 2000px;
+            width: 100%;
+            padding-top: 20px;
+        }
+        
+        /* Fijar la barra de navegación */
+        /* .fixed {
+            position: fixed;
+            top: 0;
+            
+        } */
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            color: white;
+           
+        }
+        
+        .navbar a {
+            padding: 15px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        
